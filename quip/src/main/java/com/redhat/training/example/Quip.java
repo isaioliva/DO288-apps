@@ -14,14 +14,14 @@ public class Quip {
 @Produces("text/plain")
 public Response index() throws Exception {
     String host = InetAddress.getLocalHost().getHostName();
-    return Response.ok("Veni, vidi, vici...\n").build();
+    return Response.ok("I came, I saw, I conquered...mi bolas\n").build();
   }
 
 @GET
 @Path("/ready")
 @Produces("text/plain")
 public Response ready() throws Exception {
-    return Response.ok("OK\n").build();
+    return Response.ok("Todo chido\n").build();
   }
 
 }
